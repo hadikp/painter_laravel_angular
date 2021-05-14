@@ -19,6 +19,8 @@
         "sass-loader": "^8.0.0"
     },
     "dependencies": {
-        "bootstrap": "^5.0.0"
+        "angular": "file:resources/frontend/angular",
+        "bootstrap": "^5.0.0",
+        "ngx-lightbox": "^2.3.0"
     }
 }

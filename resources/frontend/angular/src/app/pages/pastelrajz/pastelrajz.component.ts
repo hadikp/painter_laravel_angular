@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-pastelrajz',
@@ -10,6 +11,7 @@ export class PastelrajzComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $('.carousel').carousel()
   }
 
 }

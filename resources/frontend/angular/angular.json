@@ -32,9 +32,13 @@
             ],
             "styles": [
               "C:/xampp/htdocs/painter/node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles/styles.scss"
+              "src/styles/styles.scss",
+              "node_modules/ngx-lightbox/lightbox.css"
             ],
-            "scripts": []
+            "scripts": [
+              "C:/xampp/htdocs/painter/node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+            ]
           },
           "configurations": {
             "production": {

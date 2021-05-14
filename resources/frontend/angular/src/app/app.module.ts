@@ -9,6 +9,7 @@ import { CeruzarajzComponent } from './pages/ceruzarajz/ceruzarajz.component';
 import { PastelrajzComponent } from './pages/pastelrajz/pastelrajz.component';
 import { AkvarellComponent } from './pages/akvarell/akvarell.component';
 import { OlajfestmenyComponent } from './pages/olajfestmeny/olajfestmeny.component';
+import { LightboxModule } from 'ngx-lightbox';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { OlajfestmenyComponent } from './pages/olajfestmeny/olajfestmeny.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
