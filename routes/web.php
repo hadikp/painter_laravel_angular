@@ -15,8 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-/* Route::get('/', function () {
+ Route::get('/', function () {
     return view('welcome');
-}); */
+}); 
 //Route::get('/{any}', [AngularController::class, 'index'])->where('any', '^(?!api).*$');
-Route::get('/', 'AngularController@index');
+//Route::get('/', 'AngularController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
